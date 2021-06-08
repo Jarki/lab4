@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\src\Shape.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Rectangle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Circle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\memento\ShapeUtils.cpp">
+      <Filter>src\memento</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\memento\RectangleUtils.cpp">
+      <Filter>src\memento</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\memento\CircleUtils.cpp">
+      <Filter>src\memento</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SceneManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\composites\ShapeComposite.cpp">
+      <Filter>src\composites</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ShapeParser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\memento\ShapeCompositeUtils.cpp">
+      <Filter>src\memento</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GUI\src\Button.cpp">
+      <Filter>GUI\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{9dd14913-809d-482f-ac5a-9025281d30db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{14132000-80ab-4d91-a796-538789934eef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interfaces">
+      <UniqueIdentifier>{eb8a4bb2-e093-4ef1-8fdc-76346eff588a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\memento">
+      <UniqueIdentifier>{e144d879-1bc8-4f89-a7a4-aaf25e171f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\memento">
+      <UniqueIdentifier>{2e2f81fe-d5c9-4bc9-8066-fe0cc8b98a58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\composites">
+      <UniqueIdentifier>{ad48cb95-18ac-484d-bcbf-7b4eea6f32a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\composites">
+      <UniqueIdentifier>{e951e9e1-5e24-403f-b29f-e1f7f2089059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{705ae1a2-79db-42e9-a9cc-fcb3cbd6d8e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\include">
+      <UniqueIdentifier>{d9a6a40a-8d55-4112-b9b7-9ce189ced10e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\src">
+      <UniqueIdentifier>{d0dfe6c2-a4cf-4f17-a437-362cd66c4821}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Shape.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interfaces\IDrawable.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Rectangle.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Circle.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\memento\ShapeUtils.h">
+      <Filter>include\memento</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\memento\CircleUtils.h">
+      <Filter>include\memento</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\memento\RectangleUtils.h">
+      <Filter>include\memento</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interfaces\IScene.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SceneManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\composites\ShapeComposite.h">
+      <Filter>include\composites</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interfaces\IShape.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interfaces\IPrintable.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ShapeParser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\memento\ShapeCompositeUtils.h">
+      <Filter>include\memento</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GUI\include\Button.h">
+      <Filter>GUI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interfaces\IClickable.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interfaces\IContainable.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

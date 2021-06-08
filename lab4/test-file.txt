@@ -1,0 +1,4 @@
+ShapeComposite
+Example
+Circle%%1563.000000%%127.000000%%2933260287%%40.000000%%
+ShapeCompositeEnd
